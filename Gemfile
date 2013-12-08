@@ -33,6 +33,7 @@ group :doc do
 end
 
 gem 'puma'
+gem "sequel-rails"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
