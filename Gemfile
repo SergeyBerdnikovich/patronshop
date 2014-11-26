@@ -34,6 +34,17 @@ end
 
 gem 'puma'
 
+group :development do
+  # gem 'cmake'
+  gem "pronto"
+  gem 'pronto-rubocop', require: false
+  gem 'pronto-scss', require: false
+  gem 'pronto-rails_best_practices', require: false
+  gem 'pry', '~> 0.10.0'
+  gem 'pry-rails', '~> 0.3.2'
+  gem 'pry-byebug', '~> 1.3.3'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
